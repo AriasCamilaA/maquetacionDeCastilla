@@ -29,8 +29,26 @@
     
 }
 
-.carousel img{
-    height: 200px;
-    width: 400px;
+.carousel {
+    height: 50vh;
+    overflow: hidden;
+    align-items: center;
 
+}
+
+.carrusel{
+    display: flex;
+    background-color: var(--fondo2);
+    align-items: center;
+    text-align: center;
+}
+
+.separador{
+    height: 72px;
+    margin: auto;
+    display: flex;
+}
+
+.quienes_somos{
+    display: flex;
 }
