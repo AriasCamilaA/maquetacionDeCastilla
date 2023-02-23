@@ -25,6 +25,11 @@ body {
 h1, h2 {
     font-family: 'Sofia', cursive;
     color: var(--oscuro);
+    margin: 20px 4px;
 }
 
+footer{
+    background-color: var(--oscuro);
+    color: var(--blanco);
+}
 
