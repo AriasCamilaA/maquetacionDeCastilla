@@ -11,23 +11,21 @@
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/landing.css">
-
 </head>
-
 <body>
     <nav class="menu">
         <div class="logo">
             <img src="assets/img/logoClaro.png">
-
         </div>
         <ul>
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Quienes somos</a></li>
-            <li><a href="">Menú</a></li>
-            <li><a href="">Galería</a></li>
+            <li><a href="#banner">Inicio</a></li>
+            <li><a href="#quienes_somos">Quienes somos</a></li>
+            <li><a href="#especialidades">Menú</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contactanos">contactanos</a></li>
         </ul>
     </nav>
-    <section>
+    <section id="banner">
         <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -85,7 +83,7 @@
         </div>
     </section>
     <img src="./assets/img/separador.png" alt="" class="separador">
-    <section class="quienes_somos">
+    <section id="quienes_somos" class="quienes_somos container ">
         <h1>Quíenes somos</h1>
         <div class="row">
             <div class="col">
@@ -123,10 +121,65 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </section>
+    <section id="especialidades" class="especialidades container">
+        <h1>Nuestras Especialidades</h1>
+        <div>
+            <div>
+                <img src="./assets/icons/cheesecake.png" alt="cheese_cake">
+                <p>CHEESECAKE</p>
+            </div>
+            <div>
+                <img src="./assets/icons/mantecada.png" alt="mantecada">
+                <p>MANTECADA</p>
+            </div>
+            <div>
+                <img src="./assets/icons/helado.png" alt="helado">
+                <p>HELADO</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="./assets/icons/oblea.png" alt="oblea">
+                <p>OBLEA</p>
+            </div>
+            <div>
+                <img src="./assets/icons/waffle.png" alt="waffle">
+                <p>WAFFLE</p>
+            </div>
+        </div>
+    </section>
+    <img src="./assets/img/separador.png" alt="" class="separador">
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <h1>Galería</h1>
+            <div>
+                <img src="./assets/img/galeria 1.png" alt="galeria_1">
+                <img src="./assets/img/galeria 2.png" alt="galeria_2">
+                <img src="./assets/img/galeria 1.png" alt="galeria_1">
+                <img src="./assets/img/galeria 2.png" alt="galeria_2">
+                <img src="./assets/img/galeria 1.png" alt="galeria_1">
+                <img src="./assets/img/galeria 2.png" alt="galeria_2">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="contactanos" class="container">
+            <div class="datos">
+                <img src="./assets/img/logoClaro.png" alt="logo">
+                <ul>
+                    <li>Contacto : 3158779538</li>
+                    <li>Dirección: Cra. 141b # 144-63</li>
+                    <li>E-mail: isabelcastilla@gmail.com</li>
+                    <li>Creado  por PigeonSoft | 2023</li>
+                </ul>
+            </div>
+            <div class="map">
+                <h2>Visitanos</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.0979719242873!2d-74.11667598590977!3d4.753003942526904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f847b7ad1f1d7%3A0x985847d5e9939f43!2sCra.%20141b%20%23144-63%2C%20Suba%2C%20Bogot%C3%A1%2C%20Cundinamarca!5e0!3m2!1ses!2sco!4v1677128620738!5m2!1ses!2sco" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
