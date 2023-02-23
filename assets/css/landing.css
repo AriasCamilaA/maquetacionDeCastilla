@@ -55,10 +55,10 @@
 
 .quienes_somos{
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    flex-direction: column;
 }
 
-.quienes_somos > div >div {
-    width: 30%;
+.quienes_somos > div {
+    margin: 40px;
 }
