@@ -30,10 +30,10 @@
 }
 
 .carousel {
-    height: 50vh;
+    height: 70vh;
     overflow: hidden;
     align-items: center;
-
+    display: flex;
 }
 
 .carrusel{
@@ -43,12 +43,22 @@
     text-align: center;
 }
 
+.carrusel > div{
+    padding: 20px;
+}
+
 .separador{
-    height: 72px;
+    height: 88px;
     margin: auto;
     display: flex;
 }
 
 .quienes_somos{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quienes_somos > div >div {
+    width: 30%;
 }
