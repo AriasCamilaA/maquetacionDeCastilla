@@ -33,3 +33,39 @@ footer{
     color: var(--blanco);
 }
 
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido h1 {
+    margin-top: 52px;
+}
+.opciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+
+
+.btn_opciones {
+    background-color: var(--fondo2);
+    border-radius: 16px;
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    justify-content: flex-end;
+    width: 248px;
+    height: 284px;
+}
+
+.btn_opciones:hover {
+    background-color: var(--fondo1);
+}
