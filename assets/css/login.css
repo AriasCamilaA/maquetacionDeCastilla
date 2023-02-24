@@ -43,10 +43,11 @@ body {
 
 }
 
-.container__form h2 {
+.title h2 {
     font-size: 30pt;
     font-weight: 200;
-    
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
@@ -92,6 +93,13 @@ body {
     box-shadow: 0 0 4px var(--oscuro);    
 }
 
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 button {
     background-color: var(--claro);
     color: var(--blanco);
@@ -115,6 +123,7 @@ p {
 .container__form p {
     font-size: 14pt;
     color: var(--oscuro);
+    margin: 2;
 }
 
 .container__form p a:hover {
