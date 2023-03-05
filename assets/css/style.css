@@ -11,6 +11,10 @@
 
 }
 
+*{
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -19,7 +23,6 @@ body {
     font-family: 'Taviraj', serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 h1, h2 {
@@ -33,3 +36,115 @@ footer{
     color: var(--blanco);
 }
 
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.opciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+
+
+.btn_opciones {
+    background-color: var(--fondo2);
+    border-radius: 16px;
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    justify-content: flex-end;
+    width: 248px;
+    height: 284px;
+}
+
+.btn_opciones:hover {
+    background-color: var(--fondo1);
+}
+/* ------------------------------------------------------------------------------------- */
+.body {
+    display: flex;
+}
+.pagina {
+    width: 100%;
+}
+
+/*-------------------------------------- Menu Superior ----------------------------------*/
+.menuSuperior {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    background-color: var(--oscuro);
+    color: var(--blanco);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 36px;
+}
+
+.menuSuperior h1 {
+    margin: auto;
+}
+
+.menuSuperior .icon{
+    height: 24px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.menu-logo, .menu-user {
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-logo img {
+    height: 72px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.menu-icon {
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.menu-user:hover,.menu-icon:hover, .rigth-menu >ul li:hover {
+    background-color: #ffffff80;
+    cursor: pointer;
+    color: #000000;
+}
+/* Opciones del usuario */
+.user-options {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    background-color: var(--fuccia-oscuro);
+    color: var(--blanco);
+    padding: 4px 20px;
+    border-radius: 0 0 16px 16px;
+}
+
+.user-options ul {
+    list-style: none;
+    padding: 0;
+}
+.user-options li {
+    margin-bottom: 16px;
+} 
+
+/*-------------------------------------- Menu lateral ----------------------------------*/
+.menuLateral{
+    height: 100%;
+    background-color: var(--oscuro);
+}

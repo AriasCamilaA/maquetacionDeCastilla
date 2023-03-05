@@ -1,0 +1,136 @@
+body {
+    background-image: url(../img/background.png);
+    background-color: var(--blanco);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.container__if {
+    background-color: var(--oscuro);
+    width: 70%;
+    height: 650px;
+    display: flex;
+    border-radius: 40px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    margin: auto;
+    margin-top: 50px;
+   
+
+}
+
+.logo {
+    display: flex;
+    background-color: var(--blanco);
+    border-radius: 10px;
+    margin-left: 44px;
+    object-fit: cover;
+    height: auto;
+    width: auto;
+}
+
+.container__form {
+    background-color: var(--blanco);
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.title h2 {
+    font-size: 30pt;
+    font-weight: 200;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.container__form-separador {
+    display: flex;
+    flex-direction: column;
+    width: 80%; 
+}
+
+.container__form-separador hr {
+    flex-grow: 1;
+    border: 0;
+    border-top: solid 1px var(--oscuro);
+    display: flex;
+    width: 100%;
+}
+
+.container__form-in {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container__form-in input {
+    border-radius: 20px ;
+    padding: 16px;
+    margin: 4px 5px 4px 0;
+    width: 70%;
+    outline: none;
+    border: solid 2px #f8f8f8;
+}
+
+.container__form-in input:hover {
+    border: 1px solid #f3f3f4;
+    background-color: var(--blanco);
+    box-shadow: 0 0 4px var(--oscuro);
+}
+
+.container__form-in input:focus {
+    border: 1px solid #f3f3f4;
+    background-color: var(--blanco);
+    box-shadow: 0 0 4px var(--oscuro);    
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: var(--claro);
+    color: var(--blanco);
+    padding: 15px;
+    border-radius: 60px;
+    border: none;
+    width: 128px;
+    height: 56px;
+    margin: 6px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+p {
+    display: flex;
+    gap: 5px;   
+}
+
+.container__form p {
+    font-size: 14pt;
+    color: var(--oscuro);
+    margin: 2;
+}
+
+.container__form p a:hover {
+    color: var(--medio);
+}
+.container__form p a {
+    text-decoration: none;
+    color: var(--claro);
+    font-size: 14pt;
+}
