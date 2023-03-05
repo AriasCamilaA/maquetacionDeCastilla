@@ -17,6 +17,12 @@ h1{
     height: 84px;
 }
 
+.links_menu, .btn_menu {
+    display: flex;
+    align-items: center;
+    margin-right: 26px;
+}
+
 .menu ul {
     list-style: none;
     display: flex;
@@ -25,15 +31,17 @@ h1{
 
 }
 
-.menu li {
-    margin-left: 16px;
+.menu a {
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--blanco);
     padding: 20px;
 }
 
-.menu a {
-    text-decoration: none;
-    color: var(--blanco);
-    
+.menu .btn {
+    border-radius: 24px;
+    border: 1px solid var(--fondo2);
+    margin: 0 8px;
 }
 
 .menu li:hover,.menu a:hover{
@@ -69,7 +77,6 @@ h1{
 
 .quienes_somos{
     display: flex;
-<<<<<<< HEAD
     align-items: center;
     flex-direction: column;
     height: 354px;
@@ -79,17 +86,17 @@ h1{
     display: flex;
     flex-direction: column;
     align-content: center;
-=======
->>>>>>> c58295d2e25132b35c13020fad555974a31a1d59
     align-items: center;
     flex-direction: column;
 }
 
-<<<<<<< HEAD
 
 .especialidades>div{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 800px;
 
 }
 .especialidades>div>div{
@@ -115,8 +122,12 @@ h1{
     flex-direction: column;
 }
 
-.galeria>div>div{
-    margin:auto ;
+.imgs_galeria{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .galeria{
@@ -145,11 +156,69 @@ footer .map{
     align-items: center;
 }
 
+.mapCatilla{
+    border-radius: 16px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
 footer h2{
     color: var(--blanco);
 }
-=======
-.quienes_somos > div {
-    margin: 40px;
+
+
+@media(max-width:768px) {
+    .links_menu ul{
+        display: none;
+    }
+
+    .btn_menu{
+        margin: 0;
+    }
+
+    .separador {
+        width: 100%;
+        height: auto;
+    }
+    .carousel{
+        height: auto;
+    }
+
+    .carrusel{
+        flex-direction: column-reverse;
+        margin-top: 84px;
+    }
+
+    .carrusel p {
+        display: none;
+    }
+
+    .quienes_somos{
+        height: auto;
+    }
+
+    .quienes_somos .contenido{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .galeria img{
+        width: 180px;
+    }
+
+    .especialidades img{
+        height: 80px;
+    }
+
+    .especialidades>div{
+        width: auto;
+    }
+
+    .especialidades>div>div{
+        margin: 20px;
+    }
+
+    footer .container{
+        flex-direction: column-reverse;
+    }
 }
->>>>>>> c58295d2e25132b35c13020fad555974a31a1d59

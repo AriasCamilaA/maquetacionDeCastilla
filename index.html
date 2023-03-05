@@ -14,16 +14,20 @@
 </head>
 <body>
     <nav class="menu">
-        <div class="logo">
-            <img src="assets/img/logoClaro.png">
+        <div class="links_menu">
+            <img src="assets/img/logoClaro.png" clas>
+            <ul>
+                <li><a href="#banner">Inicio</a></li>
+                <li><a href="#quienes_somos">Quienes somos</a></li>
+                <li><a href="#especialidades">Menú</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contactanos">contactanos</a></li>
+            </ul>
         </div>
-        <ul>
-            <li><a href="#banner">Inicio</a></li>
-            <li><a href="#quienes_somos">Quienes somos</a></li>
-            <li><a href="#especialidades">Menú</a></li>
-            <li><a href="#galeria">Galería</a></li>
-            <li><a href="#contactanos">contactanos</a></li>
-        </ul>
+        <div class="btn_menu">
+            <a href="./views/login.html" class="btn">Iniciar Sesión</a>
+            <a href="#" class="btn">Registrarse</a>
+        </div>
     </nav>
     <section id="banner">
         <div id="carouselExampleIndicators" class="carousel slide">
@@ -82,10 +86,10 @@
             </button>
         </div>
     </section>
-    <img src="./assets/img/separador.png" alt="" class="separador">
     <section id="quienes_somos" class="quienes_somos container ">
+        <img src="./assets/img/separador.png" alt="" class="separador">
         <h1>Quíenes somos</h1>
-        <div class="row">
+        <div class="row contenido">
             <div class="col">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, officiis, assumenda eos sequi
                     error ipsam recusandae delectus et commodi amet culpa voluptatem a. Id aliquam aperiam aspernatur
@@ -124,6 +128,7 @@
         </div>
     </section>
     <section id="especialidades" class="especialidades container">
+        <div class="separador"></div>
         <h1>Nuestras Especialidades</h1>
         <div>
             <div>
@@ -138,8 +143,6 @@
                 <img src="./assets/icons/helado.png" alt="helado">
                 <p>HELADO</p>
             </div>
-        </div>
-        <div>
             <div>
                 <img src="./assets/icons/oblea.png" alt="oblea">
                 <p>OBLEA</p>
@@ -152,9 +155,10 @@
     </section>
     <img src="./assets/img/separador.png" alt="" class="separador">
     <section id="galeria" class="galeria">
+        <div class="separador"></div>
         <div class="container">
             <h1>Galería</h1>
-            <div>
+            <div class="imgs_galeria">
                 <img src="./assets/img/galeria 1.png" alt="galeria_1">
                 <img src="./assets/img/galeria 2.png" alt="galeria_2">
                 <img src="./assets/img/galeria 1.png" alt="galeria_1">
@@ -177,7 +181,7 @@
             </div>
             <div class="map">
                 <h2>Visitanos</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.0979719242873!2d-74.11667598590977!3d4.753003942526904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f847b7ad1f1d7%3A0x985847d5e9939f43!2sCra.%20141b%20%23144-63%2C%20Suba%2C%20Bogot%C3%A1%2C%20Cundinamarca!5e0!3m2!1ses!2sco!4v1677128620738!5m2!1ses!2sco" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="mapCatilla" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.0979719242873!2d-74.11667598590977!3d4.753003942526904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f847b7ad1f1d7%3A0x985847d5e9939f43!2sCra.%20141b%20%23144-63%2C%20Suba%2C%20Bogot%C3%A1%2C%20Cundinamarca!5e0!3m2!1ses!2sco!4v1677128620738!5m2!1ses!2sco" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </footer>
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
