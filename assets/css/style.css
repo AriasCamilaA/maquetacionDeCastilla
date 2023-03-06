@@ -70,6 +70,10 @@ footer{
 .btn_opciones:hover {
     background-color: var(--fondo1);
 }
+
+.btn_opciones img {
+    height: 140px;
+}
 /* ------------------------------------------------------------------------------------- */
 .body {
     display: flex;
