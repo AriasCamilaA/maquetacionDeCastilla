@@ -15,21 +15,13 @@
                 <img src="../assets/img/logo_letra_oscura.png">
             </div>
             <form action="../views/menuPrincipal.html" class="container__form">
-                <div class="title">
-                    <h2>Iniciar Sesión</h2>
-                </div>
-                <div class="container__form-separador">
+                    <h2 class="title">Iniciar Sesión</h2>
                     <hr>
-                </div>
-                <div class="container__form-in">
-                    <input type="email" name="email" placeholder="Correo electrónico" id="email" required>
-                </div>
-                <div class="container__form-in">
-                    <input type="password" name="password" placeholder="Contraseña" id="password" required>
-                </div>
+                    <input class="inputtext" type="email" name="email" placeholder="Correo electrónico" id="email" required>
+                    <input class="inputtext" type="password" name="password" placeholder="Contraseña" id="password" required>
                 <div class="login">
-                    <button>Iniciar Sesión</button>
-                    <p>No tienes cuenta, <a href="#">registrate</a></p>
+                    <input class="button" type="submit" value="Iniciar sesión">
+                    <p>No tienes cuenta, <a href="register.html">Registrate</a></p>
                 </div>
             </form>            
         </div>
