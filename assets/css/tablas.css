@@ -1,0 +1,110 @@
+:root {
+    --porAprobar:#50AA4E;
+    --aprobado:#7000FF;
+    --preparandose:#8B3A00;
+    --paraRecoger:#52456F;
+    --cancelados:#FF0505;
+    --aceptarCambios:#EF6E00;
+    --finalizados:#009E78;
+}
+
+.filtros img {
+    width: 30px;
+}
+/* ----------------------- Opciones de estado ----------------------------- */
+
+.opciones {
+    width: auto;
+    margin: 16px 0;
+}
+
+.opciones input {
+    display: none;
+}
+
+.opciones label {
+    display: flex;
+    padding: 10px;
+    border-radius: 16px;
+    margin: 4px;
+    font-family: "sofia";
+    transition: background 0.3s, color 0.3s;
+}
+
+.porAprobar{
+    border: 1px solid var(--porAprobar);
+    color: var(--porAprobar);
+}
+.aprobado{
+    border: 1px solid var(--aprobado);
+    color: var(--aprobado);
+}
+.preparandose{
+    border: 1px solid var(--preparandose);
+    color: var(--preparandose);
+}
+.paraRecoger{
+    border: 1px solid var(--paraRecoger);
+    color: var(--paraRecoger);
+}
+.cancelados{
+    border: 1px solid var(--cancelados);
+    color: var(--cancelados);
+}
+.aceptarCambios{
+    border: 1px solid var(--aceptarCambios);
+    color: var(--aceptarCambios);
+}
+.finalizados{
+    border: 1px solid var(--finalizados);
+    color: var(--finalizados);
+}
+
+.opciones input:hover+label {
+    cursor: pointer;
+}
+
+.opciones input:checked+label {
+    color: var(--blanco);
+}
+
+.opciones .porAprobar:checked+label {
+    background: var(--porAprobar);
+}
+.opciones .aprobado:checked+label {
+    background: var(--aprobado);
+}
+.opciones .preparandose:checked+label {
+    background: var(--preparandose);
+}
+.opciones .paraRecoger:checked+label {
+    background: var(--paraRecoger);
+}
+.opciones .cancelados:checked+label {
+    background: var(--cancelados);
+}
+.opciones .aceptarCambios:checked+label {
+    background: var(--aceptarCambios);
+}
+.opciones .finalizados:checked+label {
+    background: var(--finalizados);
+}
+
+/* ------------------------ Filtros --------------------------------- */
+.filtros{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* -------------------------- Tabla -------------------------------------- */
+.tabla {
+    margin: 16px;
+    padding: 4px;
+    max-width: 800px;
+    width: 100%;
+    border: 1px solid var(--oscuro);
+    border-radius: 16px;
+}
+
+

@@ -72,12 +72,17 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    /* max-width: 620px; */
+}
+
+.menuAdmin {
     max-width: 620px;
 }
 
 .btn_opciones {
     background-color: var(--fondo2);
     border-radius: 16px;
+    cursor: pointer;
     /* padding: 16px; */
     margin: 16px;
     display: flex;
