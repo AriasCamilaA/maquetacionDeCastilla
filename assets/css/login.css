@@ -104,14 +104,14 @@ p {
     margin: 2;
 }
 
-.container__form p a:hover {
-    color: var(--medio);
-}
-
 .container__form p a {
     text-decoration: none;
     color: var(--claro);
     font-size: 14pt;
+}
+
+.container__form p a:hover {
+    color: var(--medio);
 }
 
 .register__form {
@@ -133,4 +133,47 @@ p {
     outline: none;
     border: solid 2px #f8f8f8;
     flex-grow: 1;
+}
+
+.inputsmall:hover {
+    border: 1px solid #f3f3f4;
+    background-color: var(--blanco);
+    box-shadow: 0 0 4px var(--oscuro);
+}
+
+.register__form input:focus {
+    border: 1px solid #f3f3f4;
+    background-color: var(--blanco);
+    box-shadow: 0 0 4px var(--oscuro);
+}
+
+.inputregister {
+    background-color: var(--claro);
+    color: var(--blanco);
+    padding: 15px;
+    border-radius: 60px;
+    border: none;
+    width: 128px;
+    height: 56px;
+    cursor: pointer;
+}
+
+.inputregister:hover {
+    opacity: 0.9;
+}
+
+.register__form p {
+    font-size: 14pt;
+    color: var(--oscuro);
+    margin: 2;
+}
+
+.register__form p a {
+    text-decoration: none;
+    color: var(--claro);
+    font-size: 14pt;
+}
+
+.register__form p a:hover {
+    color: var(--medio);
 }
