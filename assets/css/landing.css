@@ -1,7 +1,8 @@
 h1{
     margin-bottom: 40px; 
 }
-.menu {
+
+.landingMenu {
     background-color: var(--oscuro);
     color: var(--blanco);
     display: flex;
@@ -12,51 +13,51 @@ h1{
     width: 100%;
 }
 
-.menu img {
+.logo {
     margin-left: 24px;
     height: 84px;
 }
 
-.links_menu, .btn_menu {
+.landingMenu__links, .landingMenu__btns {
     display: flex;
     align-items: center;
     margin-right: 26px;
 }
 
-.btn_menu a {
+.landingMenu__btns a {
     border-radius: 16px;
     border: 1px solid var(--fondo2);
 }
 
-.menu ul {
+.landingMenu ul {
     list-style: none;
     display: flex;
     margin-right: 24px;
     margin-bottom: 0px;
-
+    align-items: center;
 }
 
-.menu a {
-    border-radius: 4px;
+.landingMenu a {
     text-decoration: none;
     color: var(--blanco);
-    padding: 20px;
+    padding: 12px;
     text-align: center;
     display: flex;
     width: auto;
 }
 
-.menu .btn {
+.landingMenu .btn {
     border-radius: 24px;
     border: 1px solid var(--fondo2);
     margin: 0 8px;
 }
 
-.menu li:hover,.menu a:hover{
+.landingMenu li:hover,.landingMenu a:hover{
     background-color: var(--fondo1);
     color: var(--oscuro);
 }
 
+/* -----------------  Carrusel --------------------------------- */
 
 .carousel {
     height: 70vh;
@@ -180,11 +181,11 @@ footer h2{
 
 
 @media(max-width:768px) {
-    .links_menu ul{
+    .landingMenu__links ul{
         display: none;
     }
 
-    .btn_menu{
+    .landingMenu__btns{
         margin: 0;
     }
 
