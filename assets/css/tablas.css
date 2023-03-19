@@ -155,3 +155,21 @@
     cursor: pointer;
 }
 
+
+/* -------------Modal agregar-------------------- */
+.modal-header{
+    background: var(--oscuro);
+    color: var(--blanco);
+    font-family: sofia;
+}
+
+.modal-header *{
+    color: var(--blanco);
+}
+
+.modal-header button {
+    background: none;
+    border: none;
+    color: var(--blanco);
+    font-size: 28px;
+}

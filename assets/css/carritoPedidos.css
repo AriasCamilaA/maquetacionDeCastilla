@@ -1,0 +1,34 @@
+.contenido {
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    height: calc(100vh - 68px - 32px);
+    justify-content: center;
+    overflow: auto;
+}
+
+.catalogo__producto {
+    text-align: center;
+    margin: 16px;
+    height: 384px;
+}
+
+.catalogo__producto * {
+    width: 16rem;
+    padding: 4px 0;
+    margin: 0;
+}
+
+
+/* ----------carrito------------------ */
+.carrito {
+    background: var(--fondo2);
+    height: calc(100vh - 68px - 32px);
+    border-radius: 16px;
+    text-align: center;
+}
