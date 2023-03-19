@@ -7,10 +7,6 @@
     --aceptarCambios:#EF6E00;
     --finalizados:#009E78;
 }
-
-.filtros img {
-    width: 30px;
-}
 /* ----------------------- Opciones de estado ----------------------------- */
 
 .opciones {
@@ -94,9 +90,37 @@
 .filtros{
     display: flex;
     width: 100%;
+    max-width: 840px;
     justify-content: space-evenly;
     align-items: center;
 }
+
+.filtros img {
+    height: 32px;
+    border: 1px solid var(--oscuro);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.filtros input {
+    height: 32px;
+    border: 1px solid var(--oscuro);
+    border-radius: 16px;
+    padding: 0 12px;
+}
+
+.filtros__fecha{
+    display: flex;
+}
+
+.filtros__fecha input:first-child {
+    border-radius: 16px 0 0 16px;
+}
+
+.filtros__fecha input:last-child {
+    border-radius: 0 16px 16px 0;
+}
+
 /* -------------------------- Tabla -------------------------------------- */
 .tabla {
     margin: 16px;
@@ -107,4 +131,27 @@
     border-radius: 16px;
 }
 
+.table {
+    margin: 0;
+    text-align: center;
+}
+
+.tabla thead{
+    border-bottom: 1px solid var(--oscuro);
+}
+
+.tabla__opcion, .tabla__estado{
+    border-left: 1px solid var(--oscuro) ;
+}
+
+.tabla span {
+    padding: 4px;
+    border-radius: 8px;
+    font-family: sofia;
+}
+
+.tabla__opcion img {
+    height: 24px;
+    cursor: pointer;
+}
 

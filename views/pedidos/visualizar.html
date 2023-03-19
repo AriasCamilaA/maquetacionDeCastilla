@@ -77,45 +77,79 @@
                 <label for="rd_Finalizado" class="lbl_Estado finalizados">Finalizados</label>
             </div>
             <div class="filtros">
-                <div class="busqueda">
-                    <img src="../../assets/icons/mantecada.png" alt="">
+                <div>
+                    <img src="../../assets/icons/lupa.png" alt="">
                     <input type="text">
-                    <img src="../../assets/icons/mantecada.png" alt="">
+                    <img src="../../assets/icons/agregar.png" alt="">
                 </div>
-                <div class="fecha">
-                    <img src="../../assets/icons/mantecada.png" alt="">
+                <div class="filtros__fecha">
                     <input type="date" name="" id="">
                     <input type="date" name="" id="">
                 </div>
-                <img src="../../assets/icons/mantecada.png" alt="">
+                <img src="../../assets/icons/excel.png" alt="">
             </div>
             <div class="tabla">
                 <table class="table table-hover">
                     <thead>
                       <tr>
                         <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
+                        <th scope="col">Cliente</th>
+                        <th scope="col">Pedido</th>
+                        <th scope="col">Fecha</th>
+                        <th class="tabla__estado" scope="col">
+                            Estado
+                        </th>
+                        <th class="tabla__opcion" scope="col">Acciones</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
+                        <td>Camila Arias</td>
+                        <td>Cheese cake de limón</td>
+                        <td>19/03/2023</td>
+                        <td class="tabla__estado">
+                            <span class="lbl_Estado paraRecoger">Para recoger</span>
+                        </td>
+                        <td class="tabla__opcion">
+                            <img src="../../assets/icons/visualizar.png" alt="Visualizar">
+                        </td>
+                    </tr>
+                    <tr>
                         <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                      </tr>
-                      <tr>
+                        <td>Vincent Camargo</td>
+                        <td>Oblea especial</td>
+                        <td>20/03/2023</td>
+                        <td class="tabla__estado">
+                            <span class="lbl_Estado porAprobar">Por Arpobar</span>
+                        </td>
+                        <td class="tabla__opcion">
+                            <img src="../../assets/icons/visualizar.png" alt="Visualizar">
+                        </td>
+                    </tr>
+                    <tr>
                         <th scope="row">3</th>
-                        <td colspan="2">Larry the Bird</td>
-                        <td>@twitter</td>
+                        <td>Felipe Rodríguez</td>
+                        <td>Wafle con nutella</td>
+                        <td>17/03/2023</td>
+                        <td class="tabla__estado">
+                            <span class="lbl_Estado aceptarCambios">Aceptar cambios</span>
+                        </td>
+                        <td class="tabla__opcion">
+                            <img src="../../assets/icons/visualizar.png" alt="Visualizar">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Sebastián Junco</td>
+                        <td>Arroz con leche</td>
+                        <td>19/03/2023</td>
+                        <td class="tabla__estado">
+                            <span class="lbl_Estado porAprobar">Por Arpobar</span>
+                        </td>
+                        <td class="tabla__opcion">
+                            <img src="../../assets/icons/visualizar.png" alt="Visualizar">
+                        </td>
                       </tr>
                     </tbody>
                   </table>
