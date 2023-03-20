@@ -226,3 +226,20 @@ footer {
 #menuHam:checked~.menuLateral {
     transform:translateX(0);
 }
+
+/* ------------------Scroll bar------------------- */
+::-webkit-scrollbar {
+    width: 4px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: var(--fondo1);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: var(--oscuro); 
+}
