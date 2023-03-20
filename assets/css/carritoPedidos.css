@@ -56,6 +56,11 @@
     border-radius: 50%;
 }
 
+.carrito__productos-especial {
+    height: 40vh;
+    overflow: auto;
+}
+
 .carrito__producto {
     background: var(--blanco);
     display: flex;
@@ -74,4 +79,13 @@
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
+}
+
+.carrito__opciones textarea{
+    resize: none;
+    border: 1px solid transparent;
+}
+
+.carrito__opciones textarea::selection{
+    border: 1px solid var(--fondo3);
 }
