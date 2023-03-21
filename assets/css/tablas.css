@@ -150,6 +150,10 @@
     font-family: sofia;
 }
 
+.tabla__total{
+    font-family: 'Taviraj' !important;
+}
+
 .tabla__opcion img {
     height: 24px;
     cursor: pointer;
