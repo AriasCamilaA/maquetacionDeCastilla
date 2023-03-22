@@ -67,6 +67,7 @@
 
 .verPedido__footer * {
     margin: 4px 0;
+    resize: none;
 }
 
 .carrito__total{
