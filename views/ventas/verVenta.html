@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/tablas.css">
+    <link rel="stylesheet" href="../../assets/css/verPedido.css">
 </head>
 
 <body class="body">
@@ -77,92 +78,39 @@
         </nav>
         <!-- ---------------------------------------------Contenido----------------------------------------- -->
         <div class="contenido">
-            <h1>Ventas</h1>
-            <div class="filtros">
-                <div>
-                    <img src="../../assets/icons/lupa.png" alt="">
-                    <input type="text">
-                    <a href="./nuevaVenta.html">
-                        <img src="../../assets/icons/agregar.png" alt="">
-                    </a>
+            <div class="verPedido">
+                <div class="verPedido__cabecera verVenta__cabecera">
+                        <h1>Venta #1000</h1>
+                        <p>Administrador</p>
                 </div>
-                <div class="filtros__fecha">
-                    <input type="date" name="" id="">
-                    <input type="date" name="" id="">
+                <div class="verPedido__Cuerpo">
+                    <div class="carrito__producto">
+                        <img src="../../assets/img/galeria 3.png" alt="">
+                        <div class="producto__descripcion">
+                            <h5>Producto</h5>
+                            <p>$5000</p>
+                        </div>
+                        <input type="number" name="" id="" value="2" disabled>
+                    </div>
+                    <div class="carrito__producto">
+                        <img src="../../assets/img/galeria 3.png" alt="" disabled>
+                        <div class="producto__descripcion">
+                            <h5>Producto</h5>
+                            <p>$5000</p>
+                        </div>
+                        <input type="number" name="" id="" value="2" disabled>
+                    </div>
                 </div>
-                <img src="../../assets/icons/excel.png" alt="">
-            </div>
-            <div class="tabla">
-                <table class="table table-hover">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Vendedor</th>
-                        <th scope="col">Fecha</th>
-                        <th scope="col">Hora</th>
-                        <th scope="col">Total</th>
-                        <th class="tabla__opcion" scope="col">Acciones</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Empleado</td>
-                        <td>21/03/2023</td>
-                        <td>14:15</td>
-                        <td>
-                            <span class="tabla__total">25.000</span>
-                        </td>
-                        <td class="tabla__opcion">
-                             <a href="./verVenta.html">
-                                <img src="../../assets/icons/visualizar.png" alt="Visualizar">
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Administrador</td>
-                        <td>15/03/2023</td>
-                        <td>13:33</td>
-                        <td>
-                            <span class="tabla__total">5.000</span>
-                        </td>
-                        <td class="tabla__opcion">
-                             <a href="./verVenta.html">
-                                <img src="../../assets/icons/visualizar.png" alt="Visualizar">
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Administrador</td>
-                        <td>18/03/2023</td>
-                        <td>12:54</td>
-                        <td>
-                            <span class="tabla__total">19.000</span>
-                        </td>
-                        <td class="tabla__opcion">
-                             <a href="./verVenta.html">
-                                <img src="../../assets/icons/visualizar.png" alt="Visualizar">
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">4</th>
-                        <td>Empleado</td>
-                        <td>17/03/2023</td>
-                        <td>18:01</td>
-                        <td>
-                            <span class="tabla__total">12.000</span>
-                        </td>
-                        <td class="tabla__opcion">
-                             <a href="./verVenta.html">
-                                <img src="../../assets/icons/visualizar.png" alt="Visualizar">
-                            </a>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <div class="verPedido__footer">
+                    <input type="date" name="" id="" disabled>
+                    <div class="carrito__total">
+                        <p>Total: $</p>
+                        <input type="number" value="10000" disabled>
+                    </div>
+                    <div class="botones">
+                        <a href="./editarVenta.html" class="btn aceptarCambios">Editar venta</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
