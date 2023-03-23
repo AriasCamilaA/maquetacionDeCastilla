@@ -208,10 +208,25 @@ footer {
     flex-direction: column;
 }
 
+.menuLateral__Opcion{
+    display: flex;
+    align-items: center;
+}
+
+.menuLateral__Opcion * {
+    margin-left: 8px;
+}
+
+.menuLateral img {
+    height: 40px;
+    width: 40px;
+}
+
 .menuLateral a {
     font-weight: bold;
     color: var(--blanco);
     padding: 16px;
+    width: -webkit-fill-available;
 }
 
 .menuLateral a:hover {
