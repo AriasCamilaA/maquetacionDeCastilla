@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Registrarse</title>
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/login.css">
 </head>
@@ -16,21 +16,21 @@
             <form action="../../views/menuPrincipal.html" class="register__form">
                 <h2 class="title">Registrar usuario</h2>
                 <div>
-                    <input class="inputsmall" type="text" placeholder="Nombre 1" autofocus> 
-                    <input class="inputsmall" type="text" placeholder="Nombre 2">
+                    <input type="text" placeholder="Nombre 1" autofocus required> 
+                    <input type="text" placeholder="Nombre 2">
                 </div>
                 <div>
-                    <input class="inputsmall" type="text" placeholder="Apellido 1">
-                    <input class="inputsmall" type="text" placeholder="Apellido 2">
+                    <input type="text" placeholder="Apellido 1" required>
+                    <input type="text" placeholder="Apellido 2">
                 </div>
                 <div>
-                    <input class="inputsmall" type="number" placeholder="Número de documento">
-                    <input class="inputsmall" type="number" placeholder="Número de celular">
+                    <input type="number" placeholder="Número de documento" required>
+                    <input type="number" placeholder="Número de celular" required>
                 </div>
-                <input class="input-small" type="email" placeholder="Correo electrónico">
+                <input class="inputbig" type="email" placeholder="Correo electrónico" required>
                 <div>
-                    <input class="inputsmall" type="password" placeholder="Contraseña">
-                    <input class="inputsmall" type="password" placeholder="Confirmar contraseña">
+                    <input type="password" placeholder="Contraseña" required>
+                    <input type="password" placeholder="Confirmar contraseña" required>
                 </div>
                 <input class="inputregister" type="submit" value="Registrate">
                 <p>Ya tienes cuenta, <a href="login.html">Iniciar Sesión</p>
