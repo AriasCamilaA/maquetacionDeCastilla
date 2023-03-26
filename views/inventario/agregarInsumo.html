@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedidos | De Castilla</title>
+    <title>Inventario | De Castilla</title>
     <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
-    <link rel="stylesheet" href="../../assets/css/verPedido.css">
+    <link rel="stylesheet" href="../../assets/css/agregarTipoCarrito.css">
+    <link rel="stylesheet" href="../../assets/css/tablas.css">
     <link rel="stylesheet" href="../../assets/css/botones.css">
+    <link rel="stylesheet" href="../../assets/css/forms.css">
 </head>
-
 <body class="body">
 
     <div class="pagina">
@@ -78,44 +79,20 @@
         </nav>
         <!-- ---------------------------------------------Contenido----------------------------------------- -->
         <div class="contenido">
-            <div class="verPedido">
-                <div class="verPedido__cabecera">
+            <form action="" class="form">
+                <div>
+                    <h1 class="form__title">Agregar Insumo</h1>
+                </div class="form__contenido">
                     <div>
-                        <h1>Pedido</h1>
-                        <p>Nombre Cliente</p>
+                    <div>
+                        <label for="">Nombre</label>
+                        <input type="text" placeholder="Nombre insumo">
                     </div>
-                    <span class="lbl_Estado btn-aceptarCambios">Estado</span>
-                </div>
-                <div class="verPedido__Cuerpo">
-                    <div class="carrito__producto">
-                        <img src="../../assets/img/galeria 3.png" alt="">
-                        <div class="producto__descripcion">
-                            <h5>Producto</h5>
-                            <p>$5000</p>
-                        </div>
-                        <input type="number" name="" id="" value="2">
-                    </div>
-                    <div class="carrito__producto">
-                        <img src="../../assets/img/galeria 3.png" alt="">
-                        <div class="producto__descripcion">
-                            <h5>Producto</h5>
-                            <p>$5000</p>
-                        </div>
-                        <input type="number" name="" id="" value="2">
+                    <div>
+                        <botton class="btn">Agregar Insumo</botton>
                     </div>
                 </div>
-                <div class="verPedido__footer">
-                    <textarea name="" id="" cols="30" rows="4"  >Quiero que no tenga tanta azúcar</textarea>
-                    <input type="date" name="" id=""  >
-                    <div class="carrito__total">
-                        <p>Total: $</p>
-                        <input type="number" value="10000"  >
-                    </div>
-                    <div class="botones">
-                        <a href="./visualizar.html" class="btn btn-porAprobar">Guardar</a>
-                    </div>
-                </div>
-            </div>
+            </form>
         </div>
     </div>
 
