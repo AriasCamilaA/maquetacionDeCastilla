@@ -26,26 +26,26 @@
     color: var(--blanco);
 }
 
-.opciones .porAprobar:checked+label {
-    background: var(--porAprobar);
+.opciones .btn-porAprobar:checked+label {
+    background: var(--btn-porAprobar);
 }
-.opciones .aprobado:checked+label {
-    background: var(--aprobado);
+.opciones .btn-aprobado:checked+label {
+    background: var(--btn-aprobado);
 }
-.opciones .preparandose:checked+label {
-    background: var(--preparandose);
+.opciones .btn-preparandose:checked+label {
+    background: var(--btn-preparandose);
 }
-.opciones .paraRecoger:checked+label {
-    background: var(--paraRecoger);
+.opciones .btn-paraRecoger:checked+label {
+    background: var(--btn-paraRecoger);
 }
-.opciones .cancelados:checked+label {
-    background: var(--cancelados);
+.opciones .btn-cancelados:checked+label {
+    background: var(--btn-cancelados);
 }
-.opciones .aceptarCambios:checked+label {
-    background: var(--aceptarCambios);
+.opciones .btn-aceptarCambios:checked+label {
+    background: var(--btn-aceptarCambios);
 }
-.opciones .finalizados:checked+label {
-    background: var(--finalizados);
+.opciones .btn-finalizados:checked+label {
+    background: var(--btn-finalizados);
 }
 
 /* ------------------------ Filtros --------------------------------- */
