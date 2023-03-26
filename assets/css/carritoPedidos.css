@@ -3,17 +3,6 @@
     overflow: hidden;
 }
 
-/* ---------------Botones-------------------- */
-
-.btn {
-    background: var(--fondo3) ;
-}
-
-.btn:hover {
-    background: var(--claro) ;
-    color: var(--blanco);
-}
-
 /* ------------Catalogo de productos---------------- */
 
 .catalogo {

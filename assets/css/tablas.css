@@ -1,12 +1,3 @@
-:root {
-    --porAprobar:#50AA4E;
-    --aprobado:#7000FF;
-    --preparandose:#8B3A00;
-    --paraRecoger:#52456F;
-    --cancelados:#FF0505;
-    --aceptarCambios:#EF6E00;
-    --finalizados:#009E78;
-}
 /* ----------------------- Opciones de estado ----------------------------- */
 
 .opciones {
@@ -25,71 +16,6 @@
     margin: 4px;
     font-family: "sofia";
     transition: background 0.3s, color 0.3s;
-}
-
-.porAprobar{
-    border: 1px solid var(--porAprobar);
-    color: var(--porAprobar);
-}
-.aprobado{
-    border: 1px solid var(--aprobado);
-    color: var(--aprobado);
-}
-.preparandose{
-    border: 1px solid var(--preparandose);
-    color: var(--preparandose);
-}
-.paraRecoger{
-    border: 1px solid var(--paraRecoger);
-    color: var(--paraRecoger);
-}
-.cancelados{
-    border: 1px solid var(--cancelados);
-    color: var(--cancelados);
-}
-.aceptarCambios{
-    border: 1px solid var(--aceptarCambios);
-    color: var(--aceptarCambios);
-}
-.finalizados{
-    border: 1px solid var(--finalizados);
-    color: var(--finalizados);
-}
-
-.porAprobar:hover{
-    border: 1px solid var(--porAprobar);
-    background: var(--porAprobar);
-    color: var(--blanco)
-}
-.aprobado:hover{
-    border: 1px solid var(--aprobado);
-    background: var(--aprobado);
-    color: var(--blanco)
-}
-.preparandose:hover{
-    border: 1px solid var(--preparandose);
-    background: var(--preparandose);
-    color: var(--blanco)
-}
-.paraRecoger:hover{
-    border: 1px solid var(--paraRecoger);
-    background: var(--paraRecoger);
-    color: var(--blanco)
-}
-.cancelados:hover{
-    border: 1px solid var(--cancelados);
-    background: var(--cancelados);
-    color: var(--blanco)
-}
-.aceptarCambios:hover{
-    border: 1px solid var(--aceptarCambios);
-    background: var(--aceptarCambios);
-    color: var(--blanco)
-}
-.finalizados:hover{
-    border: 1px solid var(--finalizados);
-    background: var(--finalizados);
-    color: var(--blanco)
 }
 
 .opciones input:hover+label {
