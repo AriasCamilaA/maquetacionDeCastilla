@@ -22,20 +22,23 @@
             <div class="form__inputs">
                 <div class="divLogin">
                     <div class="inputConLogo">
-                        <i class="form__icon border-danger"><img src="../../assets/icons/User.png" alt="Logo Usuario"></i>
-                    <input class="form__input border-danger" type="email" name="email"
-                        placeholder="CorreoElectrónico@micorreo.com" id="email" required autofocus autocomplete="none">
+                        <i class="form__icon"><img src="../../assets/icons/User.png" alt="Logo Usuario"></i>
+                    <input class="form__input" type="email" name="email"
+                        placeholder="CorreoElectrónico@micorreo.com" id="email" required autofocus autocomplete="none"
+                        data-tipo="email">
                         
                     </div>
-                    <span class="input-message-error text-danger">Debes completar el campo</span>
+                    <span class="input-message-error text-danger"></span>
                 </div>
                 <div class="divLogin">
                     <div class="inputConLogo">
-                        <i class="form__icon border-danger"><img src="../../assets/icons/Key.png" alt="Logo Llave">                </i>
-                        <input class="form__input border-danger " type="password" name="password"
-                            placeholder="Contraseña" id="password" required>
+                        <i class="form__icon"><img src="../../assets/icons/Key.png" alt="Logo Llave">                </i>
+                        <input class="form__input " type="password" name="password"
+                            placeholder="Contraseña" id="password" required
+                            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales."
+                            data-tipo="passwordLogin">
                     </div>
-                        <span class="input-message-error text-danger">Debes completar el campo</span>
+                        <span class="input-message-error text-danger"></span>
                 </div>
                 <input class="btn" type="submit" value="Iniciar sesión">
             </div>
