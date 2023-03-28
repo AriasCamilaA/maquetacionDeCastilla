@@ -3,12 +3,13 @@
 
 :root {
     --oscuro: #732F48;
-    --blanco: #ffffff;
     --medio: #8C274C;
     --claro: #F26B9C;
     --fondo1: #F6E0E3;
     --fondo2: #FDEBEB;
     --fondo3: #FDF5E7;
+    --blanco: #ffffff;
+    --gris: #f2f2f2;
 
 }
 

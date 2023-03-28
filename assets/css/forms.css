@@ -28,3 +28,10 @@
     flex-direction: column;
     gap: 15px;
 }
+
+/* Para cuándo los campos esten inválidos */
+
+.form_inputContainer-invalid{
+    border-color: var(--danger);
+}
+

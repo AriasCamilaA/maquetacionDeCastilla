@@ -9,7 +9,8 @@
 }
 
 .btn {
-    background: var(--fondo3) ;
+    border: 1px solid var(--claro);
+    color: var(--claro);
 }
 
 .btn:hover {
