@@ -38,6 +38,15 @@ a {
     color: #000000;
 }
 
+input {
+    border: 1px solid var(--oscuro);
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid var(--claro);
+}
+
 footer {
     background-color: var(--oscuro);
     color: var(--blanco);
